@@ -1,11 +1,11 @@
 var i = Math.floor((Math.random() * 6) + 1);
 while (i <= 6) {
-    document.getElementById("img1").src = "images/dice" + i + ".png ";
+    document.getElementById("img1").src = "dice" + i + ".png ";
     break;
 }
 var j = Math.floor((Math.random() * 6) + 1);
 while (j <= 6) {
-    document.getElementById("img2").src = "images/dice" + j + ".png ";
+    document.getElementById("img2").src = "dice" + j + ".png ";
     break;
 }
 if (i > j) {
